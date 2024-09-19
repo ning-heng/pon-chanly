@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.all-content{
+    background-color: #548eeb;
+}
+/* navbar */
+#navbar{
+    background-color:   #7eabf2 ;
+    padding-left: 50px;
+    font-weight: bold;
+    position: sticky;
+}
+#logo{
+    font-size: 15px;
+    color: black;
+    text-shadow: 1px 1px 2px black;
+}
+#logo img{
+    margin-bottom: 10px;
+}
+.navbar-nav{
+    margin-left: 10px;
+}
+.nav-link{
+    color: black;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 1px black;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    color: #548eeb;
+}
+.nav-link:hover{
+    background-color: white;
+    border-radius: 10px;
+}
+.icon img{
+    transition: 0.5s ease;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.icon img:hover{
+    transform: translateY(-5px);
+}
+/* navbar end */
+
+/* topall */
+.top{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  linear-gradient(0.25turn, #548eeb, #e1f4f8, #e8eaeb);
+    background-size: cover;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+}
+.top .top-left{
+    flex: 1 1 400px;
+    margin-left: 60px;
+}
+.top-left button{
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    color: #548eeb;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.top .top-right{
+    flex: 1 1 400px;
+}
+.top .top-right img{
+    width: 65%;
+    margin-left: 60px;
+}
+.top h1,h3{
+    color: black;
+    text-shadow: 1px 1px 1px white;
+    font-size: 60px;
+}
+.top p{
+    text-shadow: 0.5px 0.5px 1px black;
+}
+#animate::after{
+    content:' ';
+    color: black;
+    animation: option 5s linear infinite;
+}
+@keyframes option{
+    0%{content: "Children Book";}
+    20%{content: "English Book";}
+    50%{content: "Mind Book";}
+    60%{content: "Story Book";}
+    100%{content: "Mind Book";}
+}
+.top .container .row img{
+    margin-right: 15px;
+    width: 25px;
+}
+/* searching */
+#collapsibleNavbar .d-flex{
+    margin-left: 150px;
+}
+/* searching end */
+
+
+/* topall end */
+
+/* productall */
+#box{
+    margin-top: 60px;
+}
+#box img{
+    box-shadow: 1px 1px 5px white;
+    cursor: pointer;
+    transition: 0.5s ease;
+    height: 200px;
+}
+#box img:hover{
+    transform: translateY(-10px);
+}
+/* productall end */
+
+/* introduct */
+.discount{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  linear-gradient(0.25turn,#e8eaeb , #e1f4f8,#548eeb);
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+    margin-top: 60px;
+}
+.discount .left{
+    flex: 1 1 400px;
+    margin-left: 60px;
+}
+.discount img{
+    width: 60%;
+    cursor: pointer;
+}
+.discount .right{
+    flex: 1 1 400px;
+    margin-left: 60px;
+}
+.discount h1{
+    color: black;
+    text-shadow: 1px 1px 1px white;
+    font-size: 60px;
+}
+.discount h3,p{
+    color: black;
+    text-shadow: 1px 1px 1px white;
+}
+.discount button{
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    width: 150px;
+    height: 50px;
+    background-color: azure;
+    color: #548eeb;
+    text-shadow: 1px 1px 1px black;
+}
+/* introduct end */
+
+/* typebook */
+/* #type-book .container .sc{
+    border: 1px solid black;
+    width: 100%;
+    height: 500px;
+    overflow: scroll;
+} */
+#type-book h3{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
+#type-book .card{
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-header{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 8%;
+    margin-left: 0;
+    width: 70px;
+}
+#type-book .card:hover .card-header{
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s ease;
+}
+.card-header i  img{
+    background-color: white;
+    box-shadow: 2px 2px 1px black ;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    padding: 7px;
+    margin: -20%;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+.card-header .btn-primary{
+    background-color: transparent !important;
+    border: none;
+}
+#type-book h4{
+    color: #2253a1;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+#type-book .body .fa-star{
+ color: yellow;
+}
+.card-body p{
+    color: #7eabf2;
+    text-shadow: 1px 1px 1px black;
+}
+.card-body h6 b{
+    color: red;
+}
+.card-body span button{
+    float: right;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: #2253a1;
+    text-shadow: 1px 1px 2px black;
+}
+.card-body span button:hover{
+    background-color: black;
+    color: #e1f4f8;
+}
+
+/* typebook end */
+
+
+/* allbook */
+#all-book{
+    margin-top: 50px;
+}
+#all-book h3{
+    text-align: center;
+}
+#all-card .card{
+    box-shadow: 3px 3px 3px white;
+    cursor: pointer;
+}
+#all-book .card-text{
+    opacity: 0;
+    width: 100%;
+    color: white;
+
+}
+#all-book .card:hover .card-text{
+    font-size: 28px;
+    text-shadow: 1px 1px 1px black;
+    opacity: 1;
+    margin-top: 20%;
+    transition: 0.5s ease;
+}
+/* allbook end */
+
+/* About */
+.container h1{
+    margin-top: 50px;
+    text-align: center;
+    color: #e1f4f8;
+    text-shadow: 5px 5px 5px black;
+}
+#about{
+    text-shadow: none;
+}
+.container img{
+    box-shadow: 1px 1px 5px white;
+}
+.BT button{
+    margin-top: 50px;
+}
+.BT a{
+    text-decoration: none;
+    color: white;
+}
+/* About end */
+
+/* footerbook */
+#footer{
+    text-align: center;
+    margin-top: 70px;
+    height: 35vh;
+    background:  linear-gradient(0.25turn,#63b1d7 ,#548eeb ,#63b1d7 );
+}
+#footer h3{
+    padding-top: 40px;
+    color: #e1f4f8;
+    text-shadow: 5px 5px 5px black;
+}
+#footer .icons i{
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    padding: 6px;
+}
+#footer i:hover{
+    transform: translateY(-10px);
+}
+/* footerbook end */
+
+
+/* iphone x */
+@media (max-width: 575.98px) {
+    #navbar {
+        padding-left: 10px;
+    }
+    .top h1, h3 {
+        font-size: 40px;
+    }
+    .top .container .row{
+        flex-direction: column;
+    }
+    .top .container .py-3 {
+        padding-top: 1rem!important;
+        padding-bottom: 1rem!important;
+    }
+    .top .container .col-4 {
+        width: 68.333333%;
+    }   
+    #box {
+        margin-top: 30px;
+    }
+    #box .row{
+        flex-direction: column;
+    }
+    #box .row .col-3 {
+        margin-left: 5px;
+        width: 97%;
+    }
+    .discount img {
+        width: 45%;
+    }
+    .discount .right {
+        margin-left: 35px;
+    }
+    .discount .right h1 {
+        font-size: 44px;
+    }
+    #type-book .container .row {
+        flex-direction: column;
+    }
+    #type-book .container .col-3 {
+        margin-left: 13px;
+        width: 94%;
+    }
+    #all-book .row{
+        flex-direction: column;
+    }
+    #all-book .container .col-4 {
+        width: 90.333333%;
+        margin-left: 17px;
+    }
+    .container h1 {
+        margin-top: 22px;
+    }
+    .container .row{
+        flex-direction: column;
+    }
+    .container .row .col-6 {
+        width: 90%;
+    }
+    .container .row .col-6 {
+        margin-left: 18px;
+    }
+    .container .BT button {
+        margin-top: 22px;
+    }
+    #footer h3 {
+        padding-top: 22px;
+    }
+    
+}

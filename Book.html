@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK</title>
+    <link rel="icon" href="https://img.icons8.com/neon/256/open-book.png">
+    <link rel="stylesheet" href="./Book.css">
+    <link rel="stylesheet" href="/HTML/HTML/BootStrep/BS_all.css">
+    <!-- google-font -->
+    <link href="https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&family=Roboto:wght@100;300;400;500;700;900&family=Suwannaphum:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- link-icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="all-content">
+        <!-- navbar -->
+        <nav class="navbar sticky-top navbar-expand-sm" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" id="logo"><img src="/Book/icon.webp" width="40px" alt="">BOOK</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <!-- dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="dropdown">Option</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="children" id="cbook">Children BooK</a></li>
+                              <li><a class="dropdown-item" href="story" id="sbook">Story Book</a></li>
+                              <li><a class="dropdown-item" href="english" id="ebook">English Book</a></li>
+                              <li><a class="dropdown-item" href="mind" id="mbook">Mind Book</a></li>
+                            </ul>
+                          </li>
+                        <!-- dropdown end -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
+                    </ul>
+                    <!-- searching -->
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="text" placeholder="Search" id="search">
+                        <button class="btn btn-primary" type="button" id="btn">Search</button>
+                    </form>
+                    <!-- searching end -->
+                </div>
+                <div class="icon">
+                    <img src="/Book/heart.webp" width="20px" alt="">
+                    <a href="./Login_forBook.html"> <img src="/Book/user1.webp" width="20px" alt=""></a>
+                    <img /Book/cark.png" width="20px" alt="">
+                </div>
+            </div>
+        </nav>
+        <!-- navbar end -->
+        
+        <!-- topall -->
+        <div class="top">
+            <div class="top-left">
+                <h1><b>Love</b> <br> <b>Learning</b> </h1>
+                <h3><b>BOOK :</b> <span id="animate"></span></h3>
+                <p><b>Experience is the mother of wisdom. <br> I like reading.</b></p>
+                <button><b>Order Right Now</b></button>
+            </div>
+            <div class="top-right">
+                <img src="/Book/header1.webp" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 py-3 py-md-0"><img src="/logo/book2.png" alt=""><font color="black">If you want to increase knowledge</font></div>
+                    <div class="col-4 py-3 py-md-0"><img src="/logo/light1.webp" alt=""><font color="black">Please buy books from us to read together</font></div>
+                    <div class="col-4 py-3 py-md-0"><img src="/logo/downloge0.webp" alt=""><font color="black">Change your life with reading a book</font></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- topall end -->
+        
+        <!-- productall-->
+        <div class="container" id="box" data-aos="fade-up"
+        data-aos-duration="1500">
+            <div class="row">
+                <div class="col-3 py-3 py-md-0" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="img">
+                        <img src="book/b1.jpg" width="60%" alt="">
+                    </div>
+                </div>
+                <div class="col-3 py-3 py-md-0" data-aos="fade-up" data-aos-duration="1500"> 
+                    <div class="img">
+                        <img src="book/b2.jpg" width="60%" alt="">
+                    </div>
+                </div>
+                <div class="col-3 py-3 py-md-0" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="img">
+                        <img src="book/b3.jpg" width="60%" alt="">
+                    </div>
+                </div>
+                <div class="col-3 py-3 py-md-0" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="img">
+                        <img src="book/b4.jpg" width="60%"  alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- productall end -->
+
+        <!-- introduct -->
+        <div class="discount" data-aos="fade-up"
+        data-aos-duration="1500">
+            <div class="left">
+                <img src="" alt="">
+            </div>
+            <div class="right">
+                <h1><b>All types of books</b></h1>
+                <h3><b><font color="red">DISCOUNT 50%</font></b></h3>
+                <p><b> </b></p>
+                <button><b>Sent Order</b></button>
+            </div>
+        </div>
+        <!-- introduct end -->
+        <!-- typebook -->
+        <section id="type-book" data-aos="fade-up"
+        data-aos-duration="1500">
+            <div class="container" >
+                <h3 id="ccbook"><b>CHILDREN BOOK</b></h3> 
+                <hr color="write" size="5px" style="margin-bottom: 40px;">
+                <div class="row">
+                        <div class="col-3 py-3 py-md-0">
+                            <div class="card">
+                                <div class="card-header">
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/eye1.webp" alt=""></i></button>
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/homeheart.webp" alt=""></i></button>
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/bag.webp" alt=""></i></button>
+                                </div>
+                                <img src="book/CB1.jpg" width="100%" height="300px" alt="">
+                                <div class="card-body">
+                                    <h4>Children</h4>
+                                    <div class="body">
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <p>Lorem ipsum, dolor sit amet.</p>
+                                    <h6><b>$6.00</b> <span><button>Send</button></span></h6>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="col-3 py-3 py-md-0">
+                            <div class="card">
+                                <div class="card-header">
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/eye1.webp" alt=""></i></button>
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/homeheart.webp" alt=""></i></button>
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/bag.webp" alt=""></i></button>
+                                </div>
+                                <img src="book/CB2.jpg" width="100%" height="300px" alt="">
+                                <div class="card-body">
+                                    <h4>Children</h4>
+                                    <div class="body">
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star checked"></i>
+                                    </div>
+                                    <p>Lorem ipsum, dolor sit amet.</p>
+                                    <h6><b>$10.00</b> <span><button>Send</button></span></h6>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="col-3 py-3 py-md-0">
+                            <div class="card">
+                                <div class="card-header">
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/eye1.webp" alt=""></i></button>
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/homeheart.webp" alt=""></i></button>
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/bag.webp" alt=""></i></button>
+                                </div>
+                                <img src="book/CB3.png" width="100%" height="300px" alt="">
+                                <div class="card-body">
+                                    <h4>Children</h4>
+                                    <div class="body">
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <p>Lorem ipsum, dolor sit amet.</p>
+                                    <h6><b>$7.00</b> <span><button>Send</button></span></h6>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="col-3 py-3 py-md-0">
+                            <div class="card">
+                                <div class="card-header">
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/eye1.webp" alt=""></i></button>
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/homeheart.webp" alt=""></i></button>
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/bag.webp" alt=""></i></button>
+                                </div>
+                                <img src="book/CB4.jpg" width="100%" height="300px" alt="">
+                                <div class="card-body">
+                                    <h4>Children</h4>
+                                    <div class="body">
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <p>Lorem ipsum, dolor sit amet.</p>
+                                    <h6><b>$7.00</b> <span><button>Send</button></span></h6>
+                                </div>
+                            </div>  
+                        </div>
+                </div>
+                <div class="row mt-5" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="col-3 py-3 py-md-0">
+                            <div class="card">
+                                <div class="card-header">
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/eye1.webp" alt=""></i></button>
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/homeheart.webp" alt=""></i></button>
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/bag.webp" alt=""></i></button>
+                                </div>
+                                <img src="book/CB5.jpg" width="100%" height="300px" alt="">
+                                <div class="card-body">
+                                    <h4>Children</h4>
+                                    <div class="body">
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <p>Lorem ipsum, dolor sit amet.</p>
+                                    <h6><b>$9.00</b> <span><button>Send</button></span></h6>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="col-3 py-3 py-md-0">
+                            <div class="card">
+                                <div class="card-header">
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/eye1.webp" alt=""></i></button>
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/homeheart.webp" alt=""></i></button>
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/bag.webp" alt=""></i></button>
+                                </div>
+                                <img src="book/CB6.jpg" width="100%" height="300px" alt="">
+                                <div class="card-body">
+                                    <h4>Children</h4>
+                                    <div class="body">
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <p>Lorem ipsum, dolor sit amet.</p>
+                                    <h6><b>$7.00</b> <span><button>Send</button></span></h6>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="col-3 py-3 py-md-0">
+                            <div class="card">
+                                <div class="card-header">
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/eye1.webp" alt=""></i></button>
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/homeheart.webp" alt=""></i></button>
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/bag.webp" alt=""></i></button>
+                                </div>
+                                <img src="book/CB7.png" width="100%" height="300px" alt="">
+                                <div class="card-body">
+                                    <h4>Children</h4>
+                                    <div class="body">
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <p>Lorem ipsum, dolor sit amet.</p>
+                                    <h6><b>$7.00</b> <span><button>Send</button></span></h6>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="col-3 py-3 py-md-0">
+                            <div class="card">
+                                <div class="card-header">
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/eye1.webp" alt=""></i></button>
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/homeheart.webp" alt=""></i></button>
+                                    <button type="button" class="btn btn-primary"><i><img src="/logo/bag.webp" alt=""></i></button>
+                                </div>
+                                <img src="book/CB8.jpg" width="100%" height="300px" alt="">
+                                <div class="card-body">
+                                    <h4>Children</h4>
+                                    <div class="body">
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star checked"></i>
+                                        <i class="fa-regular fa-star checked"></i>
+                                    </div>
+                                    <p>Lorem ipsum, dolor sit amet.</p>
+                                    <h6><b>$10.00</b> <span><button>Send</button></span></h6>
+                                </div>
+                            </div>  
+                        </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="type-book" data-aos="fade-up"
+        data-aos-duration="1500">
+            <div class="container">
+                <h3><b>ENGLISH BOOK</b></h3> 
+                <hr color="write" size="5px" style="margin-bottom: 40px;">
+                <div class="row">
+                    <div class="col-3 py-3 py-md-0">
+                        <div class="card">
+                            <div class="card-header">
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/eye1.webp" alt=""></i></button>
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/homeheart.webp" alt=""></i></button>
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/bag.webp" alt=""></i></button>
+                            </div>
+                            <img src="book/EB1.jpg" width="100%" height="300px" alt="">
+                            <div class="card-body">
+                                <h4>English</h4>
+                                <div class="body">
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star "></i>
+                                </div>
+                                <p>Lorem ipsum, dolor sit amet.</p>
+                                <h6><b>$12.00</b> <span><button>Send</button></span></h6>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="col-3 py-3 py-md-0">
+                        <div class="card">
+                            <div class="card-header">
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/eye1.webp" alt=""></i></button>
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/homeheart.webp" alt=""></i></button>
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/bag.webp" alt=""></i></button>
+                            </div>
+                            <img src="book/EB2.jpg" width="100%" height="300px" alt="">
+                            <div class="card-body">
+                                <h4>English</h4>
+                                <div class="body">
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star "></i>
+                                </div>
+                                <p>Lorem ipsum, dolor sit amet.</p>
+                                <h6><b>$12.00</b> <span><button>Send</button></span></h6>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="col-3 py-3 py-md-0">
+                        <div class="card">
+                            <div class="card-header">
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/eye1.webp" alt=""></i></button>
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/homeheart.webp" alt=""></i></button>
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/bag.webp" alt=""></i></button>
+                            </div>
+                            <img src="book/EB3.jpg" width="100%" height="300px" alt="">
+                            <div class="card-body">
+                                <h4>English</h4>
+                                <div class="body">
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <p>Lorem ipsum, dolor sit amet.</p>
+                                <h6><b>$7.00</b> <span><button>Send</button></span></h6>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="col-3 py-3 py-md-0">
+                        <div class="card">
+                            <div class="card-header">
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/eye1.webp" alt=""></i></button>
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/homeheart.webp" alt=""></i></button>
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/bag.webp" alt=""></i></button>
+                            </div>
+                            <img src="book/EB4.jpg" width="100%" height="300px" alt="">
+                            <div class="card-body">
+                                <h4>English</h4>
+                                <div class="body">
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <p>Lorem ipsum, dolor sit amet.</p>
+                                <h6><b>$7.00</b> <span><button>Send</button></span></h6>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+                <div class="row mt-5" data-aos="fade-up"
+                data-aos-duration="1500">
+                    <div class="col-3 py-3 py-md-0">
+                        <div class="card">
+                            <div class="card-header">
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/eye1.webp" alt=""></i></button>
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/homeheart.webp" alt=""></i></button>
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/bag.webp" alt=""></i></button>
+                            </div>
+                            <img src="book/EB5.jpg" width="100%" height="300px" alt="">
+                            <div class="card-body">
+                                <h4>English</h4>
+                                <div class="body">
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <p>Lorem ipsum, dolor sit amet.</p>
+                                <h6><b>$9.00</b> <span><button>Send</button></span></h6>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="col-3 py-3 py-md-0">
+                        <div class="card">
+                            <div class="card-header">
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/eye1.webp" alt=""></i></button>
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/homeheart.webp" alt=""></i></button>
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/bag.webp" alt=""></i></button>
+                            </div>
+                            <img src="book/EB6.jpg" width="100%" height="300px" alt="">
+                            <div class="card-body">
+                                <h4>English</h4>
+                                <div class="body">
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <p>Lorem ipsum, dolor sit amet.</p>
+                                <h6><b>$10.00</b> <span><button>Send</button></span></h6>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="col-3 py-3 py-md-0">
+                        <div class="card">
+                            <div class="card-header">
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/eye1.webp" alt=""></i></button>
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/homeheart.webp" alt=""></i></button>
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/bag.webp" alt=""></i></button>
+                            </div>
+                            <img src="book/EB7.jpg" width="100%" height="300px" alt="">
+                            <div class="card-body">
+                                <h4>English</h4>
+                                <div class="body">
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <p>Lorem ipsum, dolor sit amet.</p>
+                                <h6><b>$9.00</b> <span><button>Send</button></span></h6>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="col-3 py-3 py-md-0">
+                        <div class="card">
+                            <div class="card-header">
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/eye1.webp" alt=""></i></button>
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/homeheart.webp" alt=""></i></button>
+                                <button type="button" class="btn btn-primary"><i><img src="/logo/bag.webp" alt=""></i></button>
+                            </div>
+                            <img src="book/EB8.jpg" width="100%" height="300px" alt="">
+                            <div class="card-body">
+                                <h4>English</h4>
+                                <div class="body">
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star checked"></i>
+                                    <i class="fa-regular fa-star "></i>
+                                    <i class="fa-regular fa-star "></i>
+                                </div>
+                                <p>Lorem ipsum, dolor sit amet.</p>
+                                <h6><b>$10.00</b> <span><button>Send</button></span></h6>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- typebook end -->
+
+        <!-- allbook -->
+        <section id="all-book" data-aos="fade-up"
+        data-aos-duration="1500">
+            <div class="container">
+                <h3 style="color: white ; text-shadow: 3px 3px 3px black;"><b>MIND BOOK</b></h3> 
+                <hr color="write" size="5px" style="margin-bottom: 40px;">
+                <div class="row">
+                    <div class="col-4 py-3 py-md-0">
+                        <div class="card">
+                            <img class="card-img" src="book/MB1.jpg" width="500px" height="500px" alt="">
+                            <div class="card-img-overlay">
+                                <p class="card-text" style="background-color: rgba(0, 0, 0, 0.589); border-radius: 10px; height: 48px; float: left; ">$10.00 <span style="float: right; height: 50px; "><button class="btn btn-lg btn-outline-warning">Order Now</button></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 py-3 py-md-0">
+                        <div class="card">
+                            <img class="card-img" src="book/MB2.jpg" width="500px" height="500px" alt="">
+                            <div class="card-img-overlay">
+                                <p class="card-text" style="background-color: rgba(0, 0, 0, 0.589); border-radius: 10px; height: 48px; float: left; ">$10.00 <span style="float: right; height: 50px; "><button class="btn btn-lg btn-outline-danger">Order Now</button></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 py-3 py-md-0">
+                        <div class="card">
+                            <img class="card-img" src="book/MB3.jpg" width="500px" height="500px" alt="">
+                            <div class="card-img-overlay">
+                                <p class="card-text" style="background-color: rgba(0, 0, 0, 0.589); border-radius: 10px; height: 48px; float: left; ">$10.00 <span style="float: right; height: 50px; "><button class="btn btn-lg btn-outline-primary">Order Now</button></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5" data-aos="fade-up"
+                data-aos-duration="1500">
+                    <div class="col-4 py-3 py-md-0">
+                        <div class="card">
+                            <img class="card-img" src="book/MB4.jpg" width="500px" height="500px" alt="">
+                            <div class="card-img-overlay">
+                                <p class="card-text" style="background-color: rgba(0, 0, 0, 0.589); border-radius: 10px; height: 48px; float: left; ">$10.00 <span style="float: right; height: 50px; "><button class="btn btn-lg btn-outline-danger">Order Now</button></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 py-3 py-md-0">
+                        <div class="card">
+                            <img class="card-img" src="book/MB5.jpg" width="500px" height="500px" alt="">
+                            <div class="card-img-overlay">
+                                <p class="card-text" style="background-color: rgba(0, 0, 0, 0.589); border-radius: 10px; height: 48px; float: left; ">$10.00 <span style="float: right; height: 50px; "><button class="btn btn-lg btn-outline-warning">Order Now</button></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 py-3 py-md-0">
+                        <div class="card">
+                            <img class="card-img" src="book/MB6.jpg" width="500px" height="500px" alt="">
+                            <div class="card-img-overlay">
+                                <p class="card-text" style="background-color: rgba(0, 0, 0, 0.589); border-radius: 10px; height: 48px; float: left; ">$10.00 <span style="float: right; height: 50px; "><button class="btn btn-lg btn-outline-info">Order Now</button></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="all-book" data-aos="fade-up"
+        data-aos-duration="1500">
+            <div class="container">
+                <h3 style="color: white ; text-shadow: 3px 3px 3px black;"><b> DISNEY STORY BOOK</b></h3> 
+                <hr color="write" size="5px" style="margin-bottom: 40px;">
+                <div class="row">
+                    <div class="col-4 py-3 py-md-0">
+                        <div class="card">
+                            <img class="card-img" src="book/srb1.jpg" width="500px" height="500px" alt="">
+                            <div class="card-img-overlay">
+                                <p class="card-text" style="background-color: rgba(0, 0, 0, 0.589); border-radius: 10px; height: 48px; float: left; ">$2.00 <span style="float: right; height: 50px; "><button class="btn btn-lg btn-outline-warning">Order Now</button></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 py-3 py-md-0">
+                        <div class="card">
+                            <img class="card-img" src="/book/srb2.jpg" width="500px" height="500px" alt="">
+                            <div class="card-img-overlay">
+                                <p class="card-text" style="background-color: rgba(0, 0, 0, 0.589); border-radius: 10px; height: 48px; float: left; ">$2.00 <span style="float: right; height: 50px; "><button class="btn btn-lg btn-outline-danger">Order Now</button></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 py-3 py-md-0">
+                        <div class="card">
+                            <img class="card-img" src="/book/srb3.jpg" width="500px" height="500px" alt="">
+                            <div class="card-img-overlay">
+                                <p class="card-text" style="background-color: rgba(0, 0, 0, 0.589); border-radius: 10px; height: 48px; float: left; ">$3.00 <span style="float: right; height: 50px; "><button class="btn btn-lg btn-outline-primary">Order Now</button></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5" data-aos="fade-up"
+                data-aos-duration="1500">
+                    <div class="col-4 py-3 py-md-0">
+                        <div class="card">
+                            <img class="card-img" src="book/srb4.jpg" width="500px" height="500px" alt="">
+                            <div class="card-img-overlay">
+                                <p class="card-text" style="background-color: rgba(0, 0, 0, 0.589); border-radius: 10px; height: 48px; float: left; ">$2.00 <span style="float: right; height: 50px; "><button class="btn btn-lg btn-outline-danger">Order Now</button></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 py-3 py-md-0">
+                        <div class="card">
+                            <img class="card-img" src="book/srb5.jpg" width="500px" height="500px" alt="">
+                            <div class="card-img-overlay">
+                                <p class="card-text" style="background-color: rgba(0, 0, 0, 0.589); border-radius: 10px; height: 48px; float: left; ">$3.00 <span style="float: right; height: 50px; "><button class="btn btn-lg btn-outline-warning">Order Now</button></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 py-3 py-md-0">
+                        <div class="card">
+                            <img class="card-img" src="book/srb6.jpg" width="500px" height="500px" alt="">
+                            <div class="card-img-overlay">
+                                <p class="card-text" style="background-color: rgba(0, 0, 0, 0.589); border-radius: 10px; height: 48px; float: left; ">$3.00 <span style="float: right; height: 50px; "><button class="btn btn-lg btn-outline-info">Order Now</button></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- allbook end -->
+
+        <!-- About -->
+        <div class="container" data-aos="fade-up"
+        data-aos-duration="1500">
+            <h1><b>ABOUT US</b></h1>
+            <hr color="white" size="5px">
+            <div class="row">
+                <div class="col-6 py-3 py-md-0">
+                    <img src="book/qr.jpg" width="60%" height="70%" alt="">
+                </div>
+                <div class="col-6 py-3 py-md-0">
+                    <p id="about"><b style="color: black;">BOOK: </b>Do you have anything for us to help?</p>
+                    <div class="BT"><button class="btn btn-lg btn-outline-warning"><a href="">Learn more...</a></button></div>
+                </div>
+            </div>
+        </div>
+        <!-- About  end-->
+
+        <!-- footerbook -->
+        <footer id="footer" data-aos="fade-up"
+        data-aos-duration="1500">
+            <h3><b>BOOK STORE</b></h3>
+            <p></p>
+            <div class="icons" >
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>    
+                <i class="fa-brands fa-telegram"></i>
+                <i class="fa-brands fa-tiktok"></i>
+            </div>
+            <div class="credited">
+                Designed By <a href="#">chanly</a>
+            </div>
+        </footer>
+        <!-- footerbook end -->
+    </div>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
+<!-- <script src="/HTML/jQuery/jQuery.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#cbook").click(function(){
+            var name = $("#cbook").html();
+            $("#search").val(name);
+        })  
+    })
+</script> -->
+<!-- <script src="/HTML/jQuery/jQuery.js"></script>
+<script>
+    var x = 0;
+    $(document).ready(function(){
+    $("div").scroll(function(){
+        $("span").text( x+= 1);
+    });
+});
+</script> -->
